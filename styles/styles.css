@@ -170,11 +170,15 @@ color: #000000;
 }
 
 .advantages-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
   margin: 0 auto;
   text-align: center;
   list-style: none;
+}
+
+.advantages-pic {
+  grid-area:4/2/2/1
 }
 
 .advantages-item {
